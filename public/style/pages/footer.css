@@ -1,0 +1,12 @@
+footer{
+	height: 245px;
+    color: #ccc;
+    flex-flow: row wrap;
+    display: flex;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+    background-color: #31353a;
+
+/* Set a width to the outermost UL and center it */
+

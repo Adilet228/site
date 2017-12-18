@@ -1,0 +1,197 @@
+.news{
+	width: 100%;
+    display: flex;
+    background: rgba(30, 30, 30, 1);
+    flex-flow: row wrap;
+}
+
+.chat{
+    width: calc(25% - 80px);
+    height: 522px;
+    border-top: 1px solid #006b62;
+    border-bottom: 1px solid #006b62;
+    display: flex;
+    flex-flow: row wrap;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.chat-header{
+	width: 100%;
+	height: 50px;
+	    background-color: rgba(30, 30, 30, 1);
+	display: flex;
+	flex-flow: row wrap;
+
+
+}
+.chat-header img{
+	width: 10px;
+	height: 10px;
+	top: 5px;
+	right: 5px;
+	position: absolute;
+}
+.chat-message{
+width: 100%;
+height: 100px;
+display: flex;
+flex-flow: row wrap;
+    background-color: rgba(30, 30, 30, 1);
+}
+.chat-information{
+	width: 100%;
+	height: calc(100% - 150px);
+	background-color: white;
+	display: flex;
+	flex-flow: row wrap;
+
+}
+.chat-message button{
+	width: 50px;
+	height: 20px;
+	border-radius: 3px;
+    line-height: 20px;
+    font-family: 'Roboto Condensed', 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;	
+    list-style-type: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-weight: 700;
+    background-color: white
+}
+.all-news{
+	margin-top: 20px;
+    margin-left: 150px;
+    width: 65%;
+    display: flex;
+    flex-flow: row wrap;
+    background: rgba(30,30,30,.9);
+}
+.all-news-header{
+    width: 100%;
+    height: 30px;
+    border-top: 2px solid #007162;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+}
+.all-news-header span{
+	font-size: 12px;
+    display: flex;
+    width: 120px;
+    flex-flow: row wrap;
+    line-height: 30px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-weight: 700;
+}
+.all-news-header span:hover{
+	background: #007162;
+}
+.all-news-header span.first{
+	background: #007162;
+}
+}
+.news-feed{
+	width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgba(30, 30, 30, 1);
+    margin-bottom: 20px;
+}
+.piece-of-news{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+
+    background: rgba(30, 30, 30, 1);
+    background-size: 100% 100%;
+}
+
+.piece-of-news-header{
+	display: flex;
+    flex-flow: row wrap;
+}
+.piece-of-news-header li{
+    line-height: 30px;
+    text-align: center;
+    color: rgba(30, 255, 255, 1);
+    font-size: 30px;
+    font-weight: 700;
+    list-style-type: none;
+    width: 100%;
+}
+.piece-of-news-header data{
+	width: 95%;
+    height: 20px;
+    font-size: 15px;
+    color: rgba(200, 200, 200, 1);
+    font-weight: 600;
+}
+.piece-of-news img{
+	width: 50%;
+    height: 200px;
+    border-radius: 7px;
+    padding: 0 5px 10px 0px;
+}
+.piece-of-news-footer{
+    width: 50%;
+    margin-left: 0;
+    line-height: 15px;
+    font-size: 15px;
+    color: rgba(200, 200, 255, 1);
+    font-weight: 500;
+}
+.information.second{
+	width: 80px;
+    height: calc(100% - 60px)!important;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 0;
+    position: sticky;
+    top: 60px;
+    background-color: rgba(30, 30, 30, 1);
+   }
+   .information.second span{
+   	border-bottom: 1px solid #067561;
+   }
+
+   .information-bottom{
+   	width: 100%;
+    height: calc(100% - 485px);
+    display: flex;
+   }
+   .qwerty{
+   	border-top: 1px solid #067561;
+   }
+.news-feed-img{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.news-feed-img img{
+	position: absolute;
+    display: none;
+    
+}
+.information-news:hover{
+	background: red;
+	display: flex;
+}
+div.news-feed{
+   border-top: 2px solid white;
+   border-left: 2px solid white;
+   border-right: 2px solid white;
+padding: 5px;
+}

@@ -1,0 +1,246 @@
+<div class="news">
+<div class="information second">
+    
+        <span class="qwerty" ui-sref="bets">
+           
+            <img class="inform-img" src="images/dice.png">
+            
+            <li>
+                Bets
+            </li>
+        </span>
+        <span>
+           <img src="images/education-chart.png"> 
+           <li>
+                Results
+            </li>
+        </span>
+        <span>
+            <img src="images/group.png">
+            <li>
+                Forum
+            </li>
+        </span>
+        <span>
+           <img src="images/gift.png"> 
+           <li>
+                Bonus
+            </li>
+        </span>
+        <span>
+            <img src="images/assistant.png">
+            <li>
+                Help!!=)
+            </li>
+        </span>
+        <span class="information-news" ui-sref="news" ui-sref-disabled-if="bets">
+          <img src="images/earth.png" >  
+          <li>
+                News
+            </li>
+        </span>
+        <bottom class="information-bottom">
+        </bottom>
+    </div>  
+<!--
+We will make a slider with stylized thumbnails using CSS3
+The markup is very simple:
+Radio Inputs
+Labels with thumbnails to detect click event
+Main Image
+-->
+<div class="all-slider">
+   <!--  <div class="slider-animation first">
+    </div>
+    <div class="slider-animation second">
+    </div>
+    <div class="slider-animation third">
+    </div>
+    <div class="slider-animation fourth">
+    </div>
+    <div class="slider-animation top">
+    </div>
+    <div class="slider-animation left">
+    </div>
+    <div class="slider-animation right">
+    </div>
+    <div class="slider-animation bottom">
+    </div> -->
+	<div class="slider">
+	<input type="radio" name="slide_switch" id="id1"/>
+	<label for="id1">
+		<img src="images/sfarcana.jpg"/>
+	</label>
+	
+	<div class="slider-main">
+	<span class="bottom-div">
+		
+	</span>
+	<span class="top-div">
+		
+	</span>
+		<img src="images/sfarcana.jpg"/>
+	</div>
+	
+	<!--Lets show the second image by default on page load-->
+	<input type="radio" name="slide_switch" id="id2" checked="checked"/>
+	<label for="id2">
+		<img src="images/dota2walperer.jpg"/>
+	</label>
+	
+	<div class="slider-main">
+	<span class="bottom-div">
+		
+	</span>
+	<span class="top-div">
+		
+	</span>
+		<img src="images/dota2walperer.jpg"/>
+	</div>
+	
+	<input type="radio" name="slide_switch" id="id3"/>
+	<label for="id3">
+		<img src="images/arcanapa.jpg"/>
+	</label>
+	
+		<div class="slider-main">
+	<span class="bottom-div">
+		
+	</span>
+	<span class="top-div">
+		
+	</span>
+		<img src="images/arcanapa.jpg"/>
+	</div>
+
+		<input type="radio" name="slide_switch" id="id5"/>
+		<label class="slider-left" for="id5">
+			<img src="images/akame.jpg"/>
+		</label>
+	<div class="slider-main">
+				<span class="bottom-div">
+		
+				</span>
+				<span class="top-div">
+		
+				</span>
+				<img src="images/akame.jpg"/>
+		</div>
+		
+		<input type="radio" name="slide_switch" id="id4"/>
+		<label class="slider-left second" for="id4">
+				<img src="images/toshiro.jpg"/>
+		</label>
+
+		<div class="slider-main">
+				<span class="bottom-div">
+		
+				</span>
+				<span class="top-div">
+		
+				</span>
+				<img src="images/toshiro.jpg"/>
+		</div>
+
+	</div>
+</div>
+
+<!-- We will use PrefixFree - a script that takes care of CSS3 vendor prefixes
+You can download it from http://leaverou.github.com/prefixfree/ -->
+<!-- <div class="chat">
+	<div class="chat-header">
+		<img src="images/xbutton.png">
+	</div>
+	<div class="chat-information">
+		
+	</div>
+	<div class="chat-message">
+	<input type="text">
+		<button>
+			Send
+		</button>
+	</div>
+	
+</div> -->
+  
+<div class="all-news">
+<div class="all-news-header">
+	<span class="first">Популярные</span>
+	<span>Недавние</span>
+	<span>По дате</span>
+</div>
+		<div class="news-feed">
+					<div class="news-feed-img">
+						<img src=../images/cool3d.jpg>
+					</div>
+			<div class="piece-of-news">
+				<span class="piece-of-news-header">
+					<li>
+						Убийца Акаме! (сериал) Akame ga Kill!
+					</li>
+					<data>Дата добавления: 01.11.2017</data>
+				</span>
+				<img src="../images/toshiro.jpg">
+			<div class="piece-of-news-footer">
+				Мечник Тацуми, простой парнишка из сельской местности отправляется в Столицу чтобы заработать денег для своей голодающей деревни. А добравшись туда вскоре узнает, что великая и красивая Столица это лишь видимость. Город погряз в коррупции, жестокости и беззаконии которые идут от премьер министра, что правит страной из-за кулис. Но как всем известно — «Один в поле не воин» и ничего тут не поделаешь, особенно когда твой враг глава....
+			</div>
+
+			</div>
+		</div>
+		
+
+		<div class="news-feed">
+				<div class="news-feed-img">
+						<img src=../images/cool3d.jpg>
+					</div>
+			<div class="piece-of-news second">
+				<span class="piece-of-news-header">
+					<li>
+						Virtus.pro победила на первом мейджоре сезона
+					</li>
+					<data>Дата добавления: 30.10.2017</data>
+				</span>
+				<img src="../images/champions.jpg">
+			<div class="piece-of-news-footer">
+				Ранее в полуфиналах Team Secret победила   Team Liquid, а Virtus.pro оказалась сильнее   Newbee. Оба финалиста вышли в плей-офф с первых мест в группах.
+
+				Сетка плей-офф:
+
+				Турнир проходил в Гамбурге с 26 по 29 октября. Призовой фонд составил один миллион долларов. Помимо денежного вознаграждения команды разыграли 1 500 очков Dota Pro Circuit.
+
+				Распределение призового фонда:
+				1 место —   Virtus.pro G2A — $500 тыс. и по 750 очков DPC каждому игроку;
+				2 место —   Team Secret — $200 тыс. и по 450 очков DPC;
+				3-4 место —   Team Liquid и   Newbee — по $90 тыс. и по 150 очков DPC;
+				5-6 место —   Evil Geniuses и   Keen Gaming — по $40 тыс.;
+				7-8 место —   Fnatic и   SG e-sports — по $20 тыс.
+			</div>
+
+			</div>
+		</div>
+		<div class="news-feed ">
+			<div class="news-feed-img">
+						<img src=../images/cool3d.jpg>
+			</div>
+			<div class="piece-of-news third">
+				<span class="piece-of-news-header">
+					<li>
+					«Убивало людей государство, и памятник должно ставить государство»
+					</li>
+					<data>Дата добавления: 30.10.2017</data>
+				</span>
+				<img src="../images/ebatlol.jpg">
+				<div class="piece-of-news-footer">
+				— Кто и как помог проекту «Стена скорби» воплотиться?
+
+— У этого памятника очень длинная история. Первый раз о нем заговорил Хрущев. В разгар оттепели, когда зашла речь о политических репрессиях, о бессудных расправах над людьми, о реабилитации жертв «Большого террора», было решено поставить им памятник — как символ того, что подобное никогда не должно повториться. Но тогда идея памятника провалилась — сильное сталинистское лобби в руководстве страны этот вопрос замотало.
+
+				</div>
+
+			</div>
+		</div>
+</div>
+
+
+
+</div>

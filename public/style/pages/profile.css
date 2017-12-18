@@ -1,0 +1,540 @@
+
+
+
+
+
+
+.main-block {
+    width:60%;
+    display: block;
+    
+}
+
+.wrapper {
+     width: 100%;
+    display: flex;
+    min-height: calc(100vh - 60px);
+    flex-flow: row wrap;
+    background: rgba(30, 30, 30, 1);
+
+}
+
+.platforms  span{
+    width:150px;
+    height:100%;
+    justify-content:center;
+    display: flex;
+    flex-flow:row wrap;
+    animation:none;
+    cursor: pointer;
+
+
+}
+.platforms span:hover {
+   box-shadow:  inset 0 0 0 rgba(224, 14, 14, 0.8);
+  animation: pulse 1s 1;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow:  inset 0 0 0 0 rgba(224, 14, 14, 0.8);
+  }
+  70% {
+      -webkit-box-shadow:inset  0 0 0 10px rgba(224, 14, 14, 0.4);
+  }
+  100% {
+      -webkit-box-shadow: inset 0 0 0 5px rgba(224, 14, 14, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: inset 0 0 0 0 rgba(224, 14, 14, 0.8);
+    box-shadow: inset 0 0 0 0 rgba(224, 14, 14, 0.8);
+  }
+  70% {
+      -moz-box-shadow: inset 0 0 0 10px rgba(224, 14, 14, 0.4);
+      box-shadow: inset 0 0 0 10px rgba(224, 14, 14, 0.4);
+  }
+  100% {
+      -moz-box-shadow:inset  0 0 0 5px rgba(224, 14, 14, 0);
+      box-shadow: inset 0 0 0 5px rgba(224, 14, 14, 0);
+  }
+}
+
+.platforms span img:hover{
+    width: 120px;
+    height: 45px;
+    margin-top: 2.5px;
+}
+
+.platforms span:active{
+    background-color: white;
+}
+
+.platforms div{
+    width: 6%;
+    height: 100%;
+}
+
+.platforms {
+    width: 100%;
+    height: 50px;
+    display: none;
+    flex-flow: row wrap;
+    background-color: rgba(20, 20, 20, 0.9);
+    margin-bottom: 10px;
+    margin-top: -150px;
+}
+.for-a-place{
+    width: 200px;
+    height: 100%;
+    
+}
+.for-a-advertising{
+    width: calc(94% - 650px);
+    height: 100%;
+
+
+    display: flex;
+    flex-flow:row wrap;
+    
+}
+.for-a-advertising div{
+    width: calc(100% - 150px);
+    height: 100%;
+    display: flex;
+    flex-flow:row wrap;
+}
+.for-a-advertising qwe{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    cursor: pointer;
+   transform: scale(1);
+    transition: 0.5s;
+    
+}
+.for-a-advertising qwe:hover{
+   /* background-color: #1953f9;*/
+    transform: scale(1.15);
+    transition:0.5s;
+}
+.for-a-advertising qwe img:hover{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+.for-a-advertising qwe img{
+    width: 36px;
+    height: 36px;
+    margin-top: 7px;
+}
+
+.platforms span img{
+    width: 110px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.allgames span ul li{
+    font-family: "Varela Round","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-feature-settings: "kern", "liga", "pnum";
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    font-style: italic;
+    text-align: center;
+}
+.allgames span:hover ul li{
+font-size: 15px;
+    color: #0066ff;
+}
+.allgames span:hover{
+    background-color: rgba(150, 0, 30, 1);
+}
+.allgames span ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:center;
+}
+
+
+.allgames span asd{
+width: 50px;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 0;
+    flex-flow: row wrap;
+}
+.allgames span asd img{
+   width: 35px;
+    height: 30px;
+    margin-top: 15px;
+    transform:rotate(-360deg);
+    transition: .7s;
+    
+}
+.allgames span button{
+    position: absolute;
+    right: 20px;
+    width: 15px;
+    height: 15px;
+    top:22.5px;
+}
+.allgames span:hover > asd > img{
+    transform:rotate(360deg);
+    transition: .7s;
+}
+.allgames span:hover>asd img{
+    width: 40px;
+    height: 35px;
+    margin-top: 12.5px;
+}
+
+
+.dlya-mesto3{
+    width: calc(47% - 225px);
+    height: 100%;
+}
+.allgames  span{
+    width: 150px;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    cursor: pointer;
+}
+.platforms-games{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    z-index: 0;
+    background: rgb(30, 30, 30);
+    background-size: 100%;
+}
+.allgames{
+     width: 480px;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    position: sticky;
+    top: 110px;
+}
+
+
+.information {
+    width: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    position: fixed;
+    z-index: 2;
+    height: calc(100vh - 60px);
+    background-color: rgba(30, 30, 30, 1);
+    
+}
+.information div{
+    width: 100%;
+    height: 14px;
+    border-bottom: 3px solid #067561;
+}
+.information span{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255, 30, 30, 1);
+    cursor: pointer;
+    transform: translate(0px);
+    transition: 2s;
+    z-index: 1000;
+}
+.information span:hover{
+    background-color: rgba(50, 50, 50, 1);
+    transition:2s;
+}
+span.bets-information-second{
+    border-top: 1px solid rgb(255,0,30);
+}
+
+
+
+.information span img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 30px;
+    transition: 1s;
+}
+
+
+
+.information span li{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    transform: scale(0);
+    /* display: none !important; */
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    transition: 1s;
+    list-style-type: none;
+    color: white;
+}
+.information span:hover>img{
+    width: 25px;
+    height: 25px;
+    top: 12.5px;
+    transition: 1s;
+}
+
+
+
+.information span:hover>li{
+    transform: scale(1);
+    transition: 1s;
+    justify-content:center;
+    bottom: 5px;
+}
+
+.main-footer {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    position: absolute;
+    height: 100px;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background: #39b54a;
+    color: #fff;
+}
+.mybets{
+    width: 0;
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 5px;
+    position: absolute;
+    top: 460px;
+    opacity: 0;
+    right: 0;
+    transition: 1s;
+}
+
+.mybets asd qwe{
+    width: 100%;
+    height: 36.5px;
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 3px solid black;
+    background-color: #001e71;
+ background-color:rgba(20, 20, 20, 0.9);
+
+    
+    
+}
+
+.mybets asd qwe x{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-flow:row wrap;
+}
+.mybets asd qwe x z{
+            width: 65%;
+    height: 100%;
+    
+    line-height: 16px;
+
+      font-weight: 700;
+    text-align: left;
+         color:white;
+    font-family: "Varela Round","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-style: italic;
+    font-size:12px;
+}
+.mybets asd qwe x button{
+    width: 50%;
+    height: 100%;
+ line-height: 14px;
+
+      font-weight: 700;
+    text-align: center;
+         color:white;
+    font-family: "Varela Round","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-style: italic;
+    font-size:14px;
+
+background-color: #005c71;
+
+}
+.mybets asd qwe x c{
+            width: 35%;
+    height: 100%;
+    
+    line-height: 16px;
+
+      font-weight: 800;
+    text-align: center;
+         color:#ff0000;
+    font-family: "Varela Round","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-style: italic;
+    font-size:13px;
+}
+.mybets asd qwe ul{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:center;
+}
+.mybets asd qwe ul li{
+        width: 100%;
+    height: 100%;
+    
+    line-height: 25px;
+
+      font-weight: 700;
+    text-align: center;
+         color:white;
+    font-family: "Varela Round","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-style: italic;
+    font-size:14px;
+}
+
+.mybets asd qwe ul img{
+    width: 12px;
+    height: 12px;
+   width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 0;
+   margin-left: calc(100% - 12px);
+}
+.mybets asd span{
+    width: 100%;
+    height: 52px;
+    display: flex;
+    flex-flow:row wrap;
+    color:black;
+    font-family: "Varela Round","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-style: italic;
+    font-size:9px;
+    border-bottom: 1px solid black;
+    margin-bottom: 3px;
+    border-top:1px solid black;
+    background-color: white;
+}
+.mybets asd span div{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-flow:row wrap;
+    
+}
+.mybets asd span div ul{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-flow:row wrap;
+    
+}
+.mybets asd span div q{
+    width: 20%;
+    height: 100%;
+    
+    line-height: 25px;
+
+      font-weight: 700;
+    text-align: center;
+         color:#0052e8;
+    font-family: "Varela Round","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-style: italic;
+    font-size:13px;
+    
+}
+.mybets asd span div t{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-flow:row wrap;
+}
+.mybets asd span div t img{
+       width: 8px;
+    height: 8px;
+    margin-left: calc(100% - 10px);
+    margin-top: 2px;
+    
+}
+.mybets asd span div i{
+        width: 40%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    line-height: 13px;
+
+      font-weight: 700;
+    text-align: right;
+
+         color:#ff0000;
+    font-family: "Varela Round","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-style: italic;
+  font-size: 12px;
+}
+.mybets asd span div i a{
+    width: 100%;
+    height: 50%;
+}
+.mybets asd span div i button{
+    width: 100%;
+    height: 50%;
+}
+.mybets asd span div ul li{
+line-height: 13px;
+    font-weight: 400;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-family: "Varela Round","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-style: italic;
+    font-size: 11px;
+}
+.mybets asd span div ul a{
+
+    line-height: 13px;
+
+      font-weight: 700;
+    text-align: left;
+     width: 100%;
+     height: 100%;
+         color:black;
+    font-family: "Varela Round","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-style: italic;
+    font-size:11px;
+}
+.bets-mybets {
+width: 100%;
+ width: 100%;
+    height: 50px;
+    background-color: #001e71;
+    /* background-color: red; */
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    }
+

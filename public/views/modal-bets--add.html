@@ -1,0 +1,39 @@
+<div class="modal">
+        
+    <div class="modal-header">
+        <div class="modal-header--img">
+                <button class="modal-header--button">
+                    <img src="images/xbutton.jpg">
+                </button>
+     </div>
+     
+     </div>
+     <fieldset class="form-field"> <input class="input-file" ng-model="newfile" type="file" 
+      base-sixty-four-input
+      on-after-validate="vm.loadImg(newfile)">
+      <img class="input-file--img" src="{{vm.img}}">
+      </fieldset>
+     <div class="modal-editing">
+         <ul>
+             <li>Editing</li>
+         </ul>
+     </div>
+  <form ng-submit="vm.save();$hide()">
+    <div class="modal-input--name" >
+         <input type="text"  ng-model="vm.title" placeholder="post title">
+
+        </div>
+     <div class="modal-input--discription" >
+         <textarea type="text" ng-model="vm.description" placeholder="discription">
+             </textarea>
+      
+    </div>
+    
+    <div class="modal-savebutton">
+        <button type="submit; $hide()">
+            <img src="images/savebutton.jpg">
+        </button>
+    </div>
+     
+    </form>
+</div>

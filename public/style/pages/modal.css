@@ -1,0 +1,171 @@
+.modal {
+    width: 400px;
+    min-height: 400px;
+    position: fixed;
+    top:15%;
+    left: calc(50vw - 200px);
+    background-color: rgba(255,255,255, 0.8);
+    background-image: url(http://3.bp.blogspot.com/-EBv9npFodpQ/ThDapDSyjWI/AAAAAAAABHI/SVXJUR7Gh34/s1600/%25D0%25B1%25D0%25BE%25D1%2580%25D0%25B4%25D1%258E%25D1%2580+%25D0%25BF%25D0%25B0%25D0%25BD+%25D1%2581%25D0%25B8%25D1%2580+%25D1%2585%25D0%25BE%25D1%2585%25D0%25BB%25D0%25BE%25D0%25BC%25D0%25B0.jpg);
+    border-radius: 10%;
+}
+.modal-backdrop {
+    background-color: rgba(0 ,0 ,0 , 0.6)
+}
+
+
+.modal-input--name {
+font-family: 'Roboto Condensed', 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.2em;
+    background: transparent;
+    border: 0 none;
+    font-weight: 700;
+    width: 400px;
+    text-align: center;
+    background-clip: padding-box;
+    padding: 1px;
+    height: 22px;
+    display: block;
+    margin: 0 auto;
+}
+.modal-input--name input{
+margin: 0 auto;
+height: 22px;
+width: 250px;
+
+    
+}
+.modal-input--discription {
+font-family: 'Roboto Condensed', 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.2em;
+    background: transparent;
+    border: 0 none;
+    font-weight: 700;
+    width: 400px;
+    text-align: center;
+    background-clip: padding-box;
+    padding: 1px;
+    box-shadow: none;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+.modal-input--discription textarea{
+margin: 0 auto;
+height: 150px;
+width: 250px;
+}
+.modal-input--email input{
+margin: 0 auto;
+height: 22px;
+width: 250px;
+
+
+}
+.modal-input--email {
+margin: 0 auto;
+height: 22px;
+width: 250px;
+
+
+}
+.modal-input--password {
+margin: 0 auto;
+height: 22px;
+width: 250px;
+
+
+
+}
+.modal-input--password input{
+margin: 0 auto;
+height: 22px;
+width: 250px;
+
+
+}
+.modal-header {
+    height: 30px;
+    width: 400px;
+    display: block;
+}
+.modal-header--img {
+    height: 30px;
+    width: 30px;
+    float: right;
+    padding:0;
+}
+.modal-header--button img{
+    height: 24px;
+    width: 24px;
+  
+}
+.modal-header--button {
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    display: block;
+}
+.modal-editing {
+    display: block;
+
+    text-align: center;
+    width: 400px;
+    height: 50px;
+}
+.modal-editing ul {
+  height: 50px;
+  width: 400px;
+    
+}
+.modal-editing ul li {
+    font-weight: 700;
+    font-family: 'Roboto Condensed', 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-style: italic;
+    font-size:30px;
+    text-align: center;
+    height: 50px;
+}
+.modal-savebutton {
+    height: 50px;
+    width: 400px;
+  float: left;
+  display: block;
+  margin-top: 20px;
+    
+
+}
+.modal-savebutton button {
+    width:calc(100% - 300px);
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    padding:0;
+}
+.modal-savebutton button img {
+    width: 94px;
+    height: 44px;
+}
+.input-file {
+    width: 150px;
+    height: 100%;
+    z-index:4;
+    opacity: 0;
+    position: absolute;
+    top:0;
+    
+}
+.input-file--img {
+    width: 150px;
+    height: auto;
+    z-index: 1;
+    margin: 0 auto;
+    display: block;
+}
+.form-field {
+    width: calc(400px - 250px);
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}

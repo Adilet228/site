@@ -1,0 +1,25 @@
+{
+  "name": "decode-blog",
+  "version": "0.0.1",
+  "description": "simple blog on MEAN stack",
+  "main": "server.js",
+  "repository": "",
+  "author": "Decode <decode.school@gmail.com>",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.2.1",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^1.3.2",
+    "cookie-parser": "^1.0.1",
+    "express": "^4.8.8",
+    "express-session": "^1.15.6",
+    "mongoose": "^4.12.4",
+    "morgan": "^1.9.0",
+    "passport": "^0.2.2",
+    "passport-local": "^1.0.0",
+    "router": "^1.3.2",
+    "version": "^0.1.2"
+  }
+}

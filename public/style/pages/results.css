@@ -1,0 +1,29 @@
+.information.results span {
+	border-bottom: 1px solid #217506;
+}
+span.bets-information-results{
+	border-top: 1px solid #217506;
+}
+span.bets-sorting.results{
+	border-top: 3px solid #217506 !important;
+}
+.sorting-first.results{
+	background: #217506 !important;
+}
+.betting-rules.results{
+	border-top: 3px solid #217506 !important;
+	color: #217506;
+}
+
+
+
+.bets-block.results{
+	background: #217506 !important;
+}
+.header.results {
+	width: 100%;
+	height: 250px;
+	display: flex;
+	flex-flow: row wrap;
+	
+}

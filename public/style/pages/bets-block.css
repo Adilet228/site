@@ -1,0 +1,490 @@
+
+
+
+
+
+
+div.all-bets {
+    
+    display: block;
+    position: sticky;
+    top: 110px;
+    margin-left: 105px;
+    margin-right: 25px;
+    transition: 1s;
+    width: calc(100% - 130px);
+
+
+}
+/*span.bets-block-coef ul div button<span.bets-block<.all-bets:hover {
+    width: calc(100% - 90px);
+    transition: 1s;
+
+}*/
+/*div.all-bets>span.bets-sorting>div.all-bets:hover + div.mybets{
+    display: none !important;
+}*/
+.all-bets:active{
+    width: calc(100% - 345px);
+    transition: 1s;    
+}
+.all-bets:active + div.mybets{
+    width: 235px;
+    opacity: 1;
+    transition: 1s;
+    top: 460px;
+}
+
+.bets-sorting{
+    width: 100%;
+    
+    border-top: 3px solid rgba(255, 0, 30, 1);
+    display: flex;
+    flex-flow: row wrap;
+    background: rgba(30, 30, 30, 1);
+}
+div.sorting{
+    width: 150px;
+    line-height: 30px;
+    list-style-type:none;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+        color: white;
+}
+div.sorting.first{
+    background:rgba(255, 0, 30, 1);
+}
+div.for {
+    width: 100%;
+    height: 0;
+    display: flex;
+    flex-flow: row wrap;
+    transition: 1s;
+    opacity: 0;
+}
+div.for:hover{
+    width: 100%;
+    height: 60px;
+    opacity: 1;
+}
+div.sorting.first:hover ~ div.for.firstsorting{
+    height: 60px!important;
+    transition: 1s;
+    display: flex;
+    opacity: 1;
+
+}
+div.sorting.second:hover ~ div.for.secondsorting{
+    height: 50px!important;
+    transition: 1s;
+    display: flex;
+
+}
+div.sorting.third:hover ~ div.for.thirdsorting{
+    height: 50px!important;
+    transition: 1s;
+    display: flex;
+
+}
+div.sorting.fourth:hover ~ div.for.fourthsorting{
+    height: 50px!important;
+    transition: 1s;
+    display: flex;
+
+}
+
+
+.betting-rules{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    color: rgb(255,0,30);
+    margin-top: 20px;
+    font-size: 14px;
+    letter-spacing: 1;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 22px;
+    background-color: rgba(30, 30, 30, 1);
+    transition: 1s;
+    border-top: 3px solid rgba(255, 0, 30, 1);
+    
+}
+.betting-rules:hover{
+        background-color:rgba(20, 20, 20,1);
+}
+.betting-rules:active{
+    transition: 1s;
+    height: 100px !important;
+        background-color:rgba(20, 20, 20,1);
+}
+.betting-rules img{
+    width: 15px;
+    margin-top: 3.5px;
+    height: 15px;
+    float: right;
+}
+.bets-block{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 5px;
+    border-top: 0;
+    background: rgba(255, 0, 30, 1);
+    
+}
+
+.bets-block.first{
+  border-top: 0;
+  background: none;
+}
+.bets-block.second{
+    background: none;
+
+}
+.bets-block-tournaments{
+    width: calc(20% - 80px);
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.bets-block-tournaments div{
+    width: 40px;
+    height: 100%;
+    display:flex;
+    flex-flow:row wrap;
+}
+.bets-block-tournaments.arcana div{
+    opacity: 0;
+}
+
+.bets-block-tournaments div img{
+        width: 100%;
+    height: 40px;
+    padding: 2.5px;
+    margin-top: 5px;
+}
+.bets-block-tournaments ul{
+    width: calc(100% - 40px);
+    height: 100%;
+    display:flex;
+    flex-flow:row wrap;
+}
+.bets-block-tournaments ul li{
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    font-family: 'Roboto Condensed', 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+}
+.bets-block-team{
+   width: calc(20% - 80px);
+    height: 100%;
+        display:flex;
+    flex-flow:row wrap;
+}
+.bets-block-team div{
+    width: 30px;
+    height:100%;
+    display:flex;
+    flex-flow:row wrap;
+    
+}
+.bets-block-team div img{
+  width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+.bets-block-team ul{
+    width: calc(100% - 30px);
+    height: 100%;
+    display:flex;
+    flex-flow:row wrap;
+}
+.bets-block-team ul li{
+ width: 100%;
+    height: 100%;
+    line-height: 50px;
+    font-family: 'Roboto Condensed', 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+ 
+}
+.bets-block-team.second ul li{
+text-align: left;
+}
+.bets-block-team.third ul li{
+text-align: left;
+}
+
+
+.bets-block-team.second div{
+    display: none;
+}
+.bets-block-coef{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.bets-block-coef ul{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-flow:row wrap;
+}
+.bets-block-coef ul li{
+    line-height: 50px;
+    height: 50px;
+    width: 50%;
+    font-size: 15px;
+    color: white;
+    font-weight: 900;
+}
+.bets-block-coef ul div{
+    width: 50%;
+    height: 100%;
+}
+.bets-coef-hover.first{
+    display: none !important;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top:5px;
+    left: 20%;
+    border-left:2px solid rgb(255,255,255);
+    border-top:2px solid rgb(255,255,255);
+}
+.bets-coef-hover.second{
+    display: none !important;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top:5px;
+    right:20%;
+    border-right:2px solid rgb(255,255,255);
+    border-top:2px solid rgb(255,255,255);
+}
+.bets-coef-hover.third{
+    position: absolute;
+    display: none !important;
+    width: 10px;
+    height: 10px;
+    bottom:5px;
+    left: 20%;
+    border-left:2px solid rgb(255,255,255);
+    border-bottom:2px solid rgb(255,255,255);
+}
+.bets-coef-hover.fourth{
+    display: none !important;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    bottom :5px;
+    right: 20%;
+    border-right:2px solid rgba(255, 255, 255, 1);
+    border-bottom:2px solid rgba(255, 255, 255, 1);
+}
+
+@keyframes coef{
+    0%{transform: translate3d(-1px ,-1px ,-1px);box-shadow: -1px -1px 0px 1px rgb(255,30,30);}
+    100%{transform: translate3d(0, 0 ,0);box-shadow: 0px 0px 0px 0px rgb(255,30,30);}
+
+}
+@keyframes coef2{
+    0%{transform: translate3d(1px ,-1px ,-1px);box-shadow: 1px -1px 0px 1px rgb(255,30,30);}
+    100%{transform: translate3d(0, 0 ,0);box-shadow: 0px 0px 0px 0px rgb(255,30,30);}
+
+}
+@keyframes coef3{
+    0%{transform: translate3d(-1px ,1px ,-1px);box-shadow: -1px 1px 0px 1px rgb(255,30,30);}
+    100%{transform: translate3d(0, 0 ,0);box-shadow: 0px 0px 0px 0px rgb(255,30,30);}
+
+}
+@keyframes coef4{
+    0%{transform: translate3d(1px ,1px ,-1px);box-shadow: 1px 1px 0px 1px rgb(255,30,30);}
+    100%{transform: translate3d(0, 0 ,0);box-shadow: 0px 0px 0px 0px rgb(255,30,30);}
+
+}
+.bets-block-coef>ul>div:hover>span.bets-coef-hover.first{
+    display: flex !important;
+    animation: 1s coef infinite;
+}
+.bets-block-coef>ul>div:hover>span.bets-coef-hover.second{
+    display: flex !important;
+    animation: 1s coef2 infinite;
+}
+
+.bets-block-coef>ul>div:hover>span.bets-coef-hover.third{
+    display: flex !important;
+    animation: 1s coef3 infinite;
+}
+.bets-block-coef>ul>div:hover>span.bets-coef-hover.fourth{
+    display: flex !important;
+    animation: 1s coef4 infinite;
+}
+
+
+.bets-block-coef ul  div button{
+    width: 50%;
+    margin: 10px 5px 0px 25%;
+    background-color: rgb(60,60,60);
+    height: 30px;
+    /* background: none; */
+    line-height: 30px;
+    font-family: 'Roboto Condensed', 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-size: 13px;
+    color: rgba(255, 30, 30, 1);
+    /* color: white; */
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 3px;
+}
+
+.bets-block-coef ul  div button:hover{
+    box-shadow: 0px 0px 20px 0px rgb(255,30,30);
+    background-color: rgb(255,200,200);
+}
+
+.bets-block-time{
+    width: calc(20% - 80px);
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.bets-block-time div{
+    width: 100%;
+    height: 40%;
+    display:flex;
+    flex-flow:row wrap;
+}
+.bets-block-time div ul{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-flow:row wrap;
+    
+}
+.bets-block-time div ul li{
+        width: 100%;
+    height: 100%;
+      line-height: 16px;
+        font-family:  'Roboto Condensed', 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-size:9px;
+    font-weight: 600;
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.bets-block-time ul{
+    width: 100%;
+    height: 60%;
+    display:flex;
+    flex-flow:row wrap;
+    
+}
+.bets-block-time ul li{
+            width: 100%;
+    height: 50%;
+      line-height: 12px;
+        font-family:  'Roboto Condensed', 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-size:9px;
+    font-weight: 600;
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.bets-block-more{
+     width: calc(20% - 80px);
+         height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.bets-block-more div{
+width: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+.bets-block-more div img{
+     width: 35px;
+    height: 35px;
+    margin-top: 7.5px;
+    margin-left: 50px;
+}
+.bets-block-more ul{
+    width: 50%;
+    height: 100%;
+    display:flex;
+    flex-flow:row wrap;
+}
+.bets-block-more ul li{
+    width: calc(100% - 20px);
+    height: 50%;
+      line-height: 40px;
+        font-family:  'Roboto Condensed', 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-size:9px;
+    font-weight: 600;
+    color:white;
+    text-align: right;
+    text-transform: uppercase;
+}
+.bets-block-more ul img{
+  width: 20px;
+    height: 12px;
+    margin-top: 19px;
+    }
+
+
+.addbets {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 0;
+    flex-flow: row wrap;
+}
+.addbets img{
+    width: 100%;
+    height: 100%;
+
+}
+.editbets{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    right: 30px;
+    top:0;
+}
+.editbets img{
+    width: 100%;
+    height: 100%;
+}
+div.bets-sorting-addmodal {
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    right: 200px;
+}
+div.bets-sorting-addmodal img{
+    width: 100%;
+    height: 100%;
+}
